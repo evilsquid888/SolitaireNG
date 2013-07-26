@@ -1,0 +1,4 @@
+SolitaireNG
+===========
+
+SolitaireNG Fork
