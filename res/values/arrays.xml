@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="auto_move_value">
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+	</string-array>
+	<string-array name="auto_move">
+		<item>Always</item>
+		<item>On Fling</item>
+		<item>Never</item>
+	</string-array>
+	<string-array name="suits_number_value">
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="suits_number">
+		<item>One Suit</item>
+		<item>Two Suits</item>
+		<item>Four Suits</item>
+	</string-array>
+</resources>

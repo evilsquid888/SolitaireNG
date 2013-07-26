@@ -1,0 +1,36 @@
+Original by Ken Magic:
+----------------------
+
+Simple solitaire game.
+
+Currently documentation is limited but I will add comments to the source and
+detail the structure in here. 
+
+Build Instructions:
+------------------
+I do not use eclipse so I can't really guarantee that it will build in that
+environment. 
+
+First off you need to download the SDK from http://code.google.com/android.
+Once installed you need to modify solitaire's build.xml file to include the
+path to the SDK (Two lines near the top). Then running ant should complete the
+job. If you have difficulties, try building a sample program from
+code.google.com first which has a bunch of detail and troubleshooting info.
+
+
+Added by Josua Dietze:
+----------------------
+It's now a proper Eclipse project. Original author is still Ken Magic.
+Modifications by Josua Dietze (2010):
+
+- "Deal" menu entry (only relevant for Spider on devices with
+  fewer hardware keys)
+- Dynamic card size (for those big screen devices)
+- Preferences converted to list
+
+Modifications by Josua Dietze (2011):
+- Dynamic card size and automatic card set selection fine tuned to
+  consider absolute and relative device resolution (DPI)
+
+
+Current version: 1.12.1-ng3

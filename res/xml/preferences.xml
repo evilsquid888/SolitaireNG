@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="General Options">
+		<CheckBoxPreference android:title="Use Large Card Art"
+			android:summary="Simple card decorations for improved visibility and big screens"
+			android:key="DisplayBigCards" />
+		<CheckBoxPreference android:title="Display Elapsed Time"
+			android:defaultValue="true"
+			android:summary="Show time since the game was started"
+			android:key="DisplayTime" />
+		<ListPreference
+			android:title="Auto Move Cards"
+			android:summary="Move all possible cards to stacks"
+			android:key="AutoMoveLevel"
+			android:defaultValue="2"
+			android:entries="@array/auto_move"
+			android:entryValues="@array/auto_move_value" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Solitaire Options">
+		<CheckBoxPreference android:title="Play Vegas Style"
+			android:defaultValue="false"
+			android:summary="Money count, limited deal cycles. Changes for new games only!"
+			android:key="SolitaireStyleVegas" />
+		<CheckBoxPreference android:title="Deal Three Cards"
+			android:defaultValue="true"
+			android:summary="Draw three cards per deal instead of one"
+			android:key="SolitaireDealThree" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Spider Options">
+		<ListPreference
+			android:title="Number of Suits in Game"
+			android:summary="More suits increase difficulty. Changes for new games only!"
+			android:key="SpiderSuits"
+			android:defaultValue="4"
+			android:entries="@array/suits_number"
+			android:entryValues="@array/suits_number_value" />
+	</PreferenceCategory>
+
+</PreferenceScreen>
